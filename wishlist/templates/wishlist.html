@@ -1,6 +1,12 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<!-- As a heading -->
+<nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1">Rahmat Bryan Naufal</span>
+    <button class="btn btn-outline-success" type="button"><a href="{% url 'wishlist:logout' %}">Logout</a></button>
+</nav>
+
 <h5>Nama: </h5>
 <p>{{nama}}</p>
 
